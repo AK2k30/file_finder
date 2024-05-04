@@ -48,6 +48,16 @@ Follow these steps to install `Find-File`:
      . $PROFILE
      ```
 
+5. **Check and Adjust Windows Search Index Settings**:
+   - **When to Perform This Step**: You should check and possibly adjust your index settings if:
+     - You are unable to find files that you expect to be found.
+     - You have recently added new directories with important files that need to be quickly accessible.
+     - The system performance during searches seems slower than expected, indicating a potentially outdated or corrupted index.
+   - **How to Adjust Index Settings**:
+     - **Open Indexing Options**: Search for "Indexing Options" in the Start menu and open it.
+     - **Modify Indexed Locations**: Click on "Modify" and ensure that the directories containing your files are included in the indexed locations. If they are not, add them.
+     - **Rebuild the Index (if necessary)**: If locations were missing and you've added them, or if the index seems corrupted or outdated, consider rebuilding it. Click on "Advanced" and then "Rebuild" under Troubleshooting. Note that rebuilding the index can take a long time depending on the amount of data.
+
 ## Usage
 
 To use the `Find-File` function, open a PowerShell window and type:
